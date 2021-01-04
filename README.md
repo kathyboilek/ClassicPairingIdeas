@@ -1,1 +1,1 @@
-# ClassicPairingIdeas
+# Classic Pairing Ideas
