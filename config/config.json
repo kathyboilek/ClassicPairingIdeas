@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pairing-ideas-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pairingIdeas/PairingIdeasWebPart.js",
+          "manifest": "./src/webparts/pairingIdeas/PairingIdeasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PairingIdeasWebPartStrings": "lib/webparts/pairingIdeas/loc/{locale}.js"
+  }
+}
